@@ -20,7 +20,7 @@ const nextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: false,
   },
-  swcMinify: true,
+  // swcMinify is enabled by default in Next.js 15+
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },

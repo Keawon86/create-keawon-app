@@ -4,7 +4,7 @@ A modern, production-ready Next.js application built with TypeScript, Tailwind C
 
 ## 🚀 Features
 
-- **Next.js 14** with App Router
+- **Next.js 15** with App Router
 - **TypeScript** for type safety
 - **Tailwind CSS** with custom design system
 - **Shadcn/ui** components built on Radix UI
@@ -16,7 +16,7 @@ A modern, production-ready Next.js application built with TypeScript, Tailwind C
 
 ## 🛠️ Tech Stack
 
-- **Framework**: Next.js 14
+- **Framework**: Next.js 15
 - **Language**: TypeScript 5
 - **Styling**: Tailwind CSS 3
 - **UI Components**: Shadcn/ui + Radix UI
@@ -88,7 +88,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ```
 {{PROJECT_NAME}}/
-├── app/                    # Next.js 14 App Router
+├── app/                    # Next.js 15 App Router
 │   ├── globals.css        # Global styles with Tailwind
 │   ├── layout.tsx         # Root layout
 │   ├── page.tsx           # Home page

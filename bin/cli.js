@@ -26,7 +26,7 @@ const banner = `
 program
   .name('create-keawon-app')
   .description('Create a modern Next.js application with TypeScript, Tailwind CSS, Shadcn/ui, and Supabase')
-  .version('1.0.0')
+  .version('1.0.3')
   .argument('[project-name]', 'Name of the project')
   .option('-y, --yes', 'Skip prompts and use defaults')
   .action(async (projectName, options) => {
@@ -163,9 +163,8 @@ async function replacePlaceholders(projectPath, projectName) {
     'package.json',
     'README.md',
     'next.config.js',
-    'tailwind.config.ts',
+    'tailwind.config.js',
     'tsconfig.json',
-    '.eslintrc.json',
     'app/layout.tsx',
     'app/page.tsx',
     'supabase/config.toml'

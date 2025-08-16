@@ -5,7 +5,7 @@ A comprehensive CLI tool that creates modern Next.js applications with TypeScrip
 ## ✨ Features
 
 - **One Command Setup** - Create a complete Next.js project in seconds
-- **Modern Tech Stack** - Next.js 14, TypeScript 5, Tailwind CSS 3
+- **Modern Tech Stack** - Next.js 15, TypeScript 5, Tailwind CSS 3
 - **UI Components** - Pre-configured Shadcn/ui + Radix UI components
 - **Backend Ready** - Supabase integration with local development setup
 - **Code Quality** - ESLint, Prettier, and TypeScript strict mode
@@ -36,7 +36,7 @@ npx create-keawon-app my-awesome-app
 
 Your new project will include:
 
-- ✅ **Next.js 14** with App Router
+- ✅ **Next.js 15** with App Router
 - ✅ **TypeScript** configuration with strict mode
 - ✅ **Tailwind CSS** with custom design system
 - ✅ **Shadcn/ui** components (Button, Card, Badge, etc.)
@@ -99,7 +99,7 @@ npm run dev
 
 ```
 [your-app-name]/
-├── app/                    # Next.js 14 App Router
+├── app/                    # Next.js 15 App Router
 │   ├── globals.css        # Global styles with Tailwind
 │   ├── layout.tsx         # Root layout
 │   ├── page.tsx           # Home page
@@ -119,9 +119,9 @@ npm run dev
 ├── supabase/              # Supabase configuration
 ├── docker-compose.yml     # Docker setup for Supabase
 ├── package.json           # Dependencies and scripts
-├── tailwind.config.ts     # Tailwind configuration
+├── tailwind.config.js     # Tailwind configuration
 ├── tsconfig.json          # TypeScript configuration
-├── .eslintrc.json         # ESLint configuration
+├── eslint.config.js        # ESLint configuration
 ├── .prettierrc            # Prettier configuration
 └── README.md              # Project documentation
 ```
