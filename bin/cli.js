@@ -57,7 +57,7 @@ async function getProjectDetails(projectName, options) {
         type: 'input',
         name: 'projectName',
         message: 'What is your project named?',
-        default: 'my-nextjs-app',
+        default: 'my-app',
         validate: (input) => {
           if (!input.trim()) return 'Project name is required';
           if (!/^[a-z0-9-]+$/.test(input)) {

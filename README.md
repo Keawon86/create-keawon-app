@@ -83,10 +83,10 @@ If you don't provide a project name, the CLI will prompt you for:
 
 ```bash
 # Create a new project
-create-keawon-app my-saas-app
+create-keawon-app [your-app-name]
 
 # Navigate to project directory
-cd my-saas-app
+cd [your-app-name]
 
 # Start local Supabase (optional)
 npm run supabase:start
@@ -98,7 +98,7 @@ npm run dev
 ## 📁 Project Structure
 
 ```
-my-saas-app/
+[your-app-name]/
 ├── app/                    # Next.js 14 App Router
 │   ├── globals.css        # Global styles with Tailwind
 │   ├── layout.tsx         # Root layout
