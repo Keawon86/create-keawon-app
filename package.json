@@ -1,6 +1,6 @@
 {
   "name": "create-keawon-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A comprehensive Next.js starter kit with TypeScript, Tailwind CSS, Shadcn/ui, and Supabase",
   "main": "bin/cli.js",
   "bin": {
