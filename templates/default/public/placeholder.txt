@@ -1,0 +1,7 @@
+This directory contains static assets for your Next.js application.
+
+Replace this file with your actual assets:
+- favicon.ico
+- images/
+- fonts/
+- other static files

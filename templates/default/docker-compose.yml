@@ -1,0 +1,38 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:15
+    container_name: supabase_postgres
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  supabase:
+    image: supabase/supabase:latest
+    container_name: supabase_local
+    ports:
+      - "54321:54321"
+      - "54322:54322"
+    environment:
+      POSTGRES_PASSWORD: postgres
+      JWT_SECRET: your-super-secret-jwt-token-with-at-least-32-characters-long
+      ANON_KEY: your-anon-key
+      SERVICE_ROLE_KEY: your-service-role-key
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./supabase:/supabase
+
+volumes:
+  postgres_data:
