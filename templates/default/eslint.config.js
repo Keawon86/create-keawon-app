@@ -1,4 +1,5 @@
 import js from '@eslint/js';
+import nextPlugin from '@next/eslint-plugin-next';
 import tseslint from '@typescript-eslint/eslint-plugin';
 import tsparser from '@typescript-eslint/parser';
 import reactPlugin from 'eslint-plugin-react';
@@ -20,6 +21,7 @@ export default [
     },
     plugins: {
       '@typescript-eslint': tseslint,
+      '@next/next': nextPlugin,
       react: reactPlugin,
       'react-hooks': reactHooksPlugin,
     },
@@ -38,6 +40,7 @@ export default [
       '@typescript-eslint/explicit-module-boundary-types': 'off',
       'react/react-in-jsx-scope': 'off',
       'react/prop-types': 'off',
+      '@next/next/no-html-link-for-pages': 'off',
     },
     settings: {
       react: {
