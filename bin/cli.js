@@ -167,7 +167,8 @@ async function replacePlaceholders(projectPath, projectName) {
     'tsconfig.json',
     '.eslintrc.json',
     'app/layout.tsx',
-    'app/page.tsx'
+    'app/page.tsx',
+    'supabase/config.toml'
   ];
   
   for (const file of files) {
