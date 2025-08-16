@@ -1,9 +1,8 @@
 import js from '@eslint/js';
-import nextPlugin from '@next/eslint-plugin-next';
-import reactPlugin from 'eslint-plugin-react';
-import reactHooksPlugin from 'eslint-plugin-react-hooks';
 import tseslint from '@typescript-eslint/eslint-plugin';
 import tsparser from '@typescript-eslint/parser';
+import reactPlugin from 'eslint-plugin-react';
+import reactHooksPlugin from 'eslint-plugin-react-hooks';
 
 export default [
   js.configs.recommended,
@@ -23,13 +22,11 @@ export default [
       '@typescript-eslint': tseslint,
       react: reactPlugin,
       'react-hooks': reactHooksPlugin,
-      '@next/next': nextPlugin,
     },
     extends: [
       'plugin:@typescript-eslint/recommended',
       'plugin:react/recommended',
       'plugin:react-hooks/recommended',
-      'plugin:@next/next/recommended',
     ],
     rules: {
       'prefer-const': 'error',
