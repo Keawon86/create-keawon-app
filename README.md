@@ -197,7 +197,7 @@ We welcome contributions! Here's how you can help:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/my-nextjs-starter.git
+git clone https://github.com/Keawon86/create-keawon-app.git
 
 # Install dependencies
 npm install
@@ -238,7 +238,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/my-nextjs-starter&type=Date)](https://star-history.com/#yourusername/my-nextjs-starter&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Keawon86/create-keawon-app&type=Date)](https://star-history.com/#Keawon86/create-keawon-app&Date)
 
 ---
 
